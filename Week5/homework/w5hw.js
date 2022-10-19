@@ -131,13 +131,20 @@ function draw() {
   ellipse(180, 750, 200, 150);
   fill(250,50,90)
   ellipse(180, 750, 200, 90);
-  // noFill()
+ 
   push()
-  translate(width)
-  // rotate(QUARTER_PI)
+   noFill()
+  translate(180, 750)
+  rotate(frameCount*.03)
   ellipseMode(CENTER)
-  ellipse(180, 750, 80, 30);
+  ellipse(0, 0, 80, 30);
+  rotate(frameCount*.01)
+  ellipse(0, 0, 85, 31);
+  rotate(frameCount*.01)
+  ellipse(0, 0, 85, 31);
   pop()
+  
+  
   
    // box08
   fill(266, 100, 80)
@@ -156,12 +163,12 @@ function draw() {
   ellipse(710, 750, 200, 150);
   fill(25, 27, 90)
   ellipse(710, 750, 200, y2+50);
-     // rotate(PI / 3.0);
-  // ellipse(x2+710, y2+750, 30, 30);
+  
+
   
   noFill()
-  c+=.08;
-  d+=.1;
+  c+=.05;
+  d+=.05;
   sinC=sin(c);
   cosD=cos(d);
   // x1=map(sinX, 100, 90, 1, 5);
@@ -173,6 +180,12 @@ function draw() {
   ellipse(710, c1+470, 30, 30);
   fill(0)
   ellipse(710, c1+470, 20, 20);
+  
+    push()
+  noStroke()
+  fill(255)
+  rect(30, 551, 780, 78)
+  pop()
 
 
   }
