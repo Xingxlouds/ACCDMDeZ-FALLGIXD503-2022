@@ -1,73 +1,58 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
-*
-{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+
+.background{
+    scroll-behavior: none;
+    height: 100%;
+    width: 100%;
 }
-section
-{
-  padding: 20px;
-  width: 100%;
-  flex-wrap: wrap;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  margin: 40px auto;
+    
+
+body {background-color: black;}
+
+
+iframe{
+margin-top: 100px;
+margin-left: 270px;
 }
-section ul
-{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  margin-bottom: 20px;
+
+
+h1{
+    font-family: 'Roboto Serif', Helvetica, Arial, serif;
+    font-size: 50px;
+    color: whitesmoke;
+    margin-top: 70px;
+    text-align: center;
+    }
+
+
+h2{
+    color: whitesmoke;
+    font-weight: 500;
+    font-size: 30px;
+    font-style: italic; 
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 50px;
+    text-align: center;
 }
-section ul li
-{
-  list-style: none;
-  background: #eee;
-  padding: 12px 20px;
-  margin: 5px;
-  letter-spacing: 1px;
-  cursor: pointer;
+
+h3{
+    color: whitesmoke;
+    font-weight: 500;
+    font-size: 30px;
+    font-style: italic; 
+    margin-top: 150px;
+    margin-left: 100px;
+    margin-right: 50px;
+    text-align: center;
 }
-section ul li.active
-{
-  background: #03a9f4;
-  color: #fff;
-}
-.photo
-{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-}
-.photo .Image
-{
-  position: relative;
-  width: 300px;
-  height: 300px;
-  margin: 5px;
-  display: block;
-}
-.photo .Image.active
-{
-  display: block;
-}
-.photo .Image.hide
-{
-  display: none;
-}
-.photo .Image img
-{
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+
+h4{
+    color: whitesmoke;
+    font-weight: 500;
+    font-size: 30px;
+    font-style: italic; 
+    margin-top: 200px;
+    margin-left: 100px;
+    margin-right: 50px;
+    text-align: center;
 }
